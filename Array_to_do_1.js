@@ -1,4 +1,4 @@
-function push_front(arr, x) {
+    function push_front(arr, x) {
     temp = []
     temp.push(x)
     for (i = 0; i < arr.length; i++) {
@@ -81,3 +81,4 @@ function removeDupes(arr){
     }console.log(x)
 }
 removeDupes([-2,-2,3.14,5,5,10])
+removeDupes([9,19,19,19,19,19,29])
