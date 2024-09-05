@@ -5,9 +5,9 @@ def rSigma(num):
     if num <= 0:
         return 0
     intNum = math.trunc(num)
-    prevVal = rSigma(intNum - 1)
-    print(prevVal + intNum)
-    return prevVal + intNum
+    prevVal =intNum + rSigma(intNum - 1)
+    print(prevVal)
+    return prevVal
 rSigma(-1)
 rSigma(5)
 
@@ -22,3 +22,5 @@ def rFact(num):
 
 rFact(3)
 rFact(6.5)
+
+
